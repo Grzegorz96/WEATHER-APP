@@ -1,7 +1,7 @@
 ![logo pogoda](https://github.com/Grzegorz96/WEATHER-APP/assets/129303867/011dd406-5ba8-4f1d-9937-e086b7ceed3b)
 # WEATHER.app
 
-WEATHER_app is a weather application that connects to the danepubliczne.imgw.pl API and creates a list of cities and a list of their weather station identifiers from the available downloaded data. The user selects the city whose weather he wants to check from the list of available cities, then the program downloads the latest weather information in this city and displays it. The application performs queries in real time, moreover, it has a dynamic creation of a list of cities, so it will adapt to any change (addition of new cities, removal of existing ones) on the server.
+WEATHER_app is a weather application that connects to the danepubliczne.imgw.pl API and creates a list of cities and a list of their weather station identifiers from the available downloaded data. The user selects the city whose weather he wants to check from the list of available cities, then the program downloads the latest weather information in this city and displays it. The application performs queries in real time, moreover, it has a dynamic creation of a list of cities, so it will adapt to any change (addition of new cities, removal of existing ones) on the server. Program WEATHER.app is written and optimized for Windows.
 
 
 ## Description of the modules
@@ -59,3 +59,30 @@ The program consists of five modules. The module that makes direct requests to t
  py .\Main.py
 ```
 Program WEATHER.app connects to the enpoints on the IMGW server, you don't need to create a local server.
+
+
+## Lessons Learned
+While creating the project, I learned how to work with json files, how to divide the project into modules and how important it is. When working on a foreign API, we must take into account that the data in the database will change, so our program must dynamically adapt to this. This project made me understand that. I also learned how to predict how the program might behave during various errors and how to deal with it.
+
+
+## Features to be implemented
+
+- The function of showing the weather for future days and times.
+- Changing the background when displaying the weather for a specific city.
+
+
+## Authors
+
+- [@Grzegorz96](https://www.github.com/Grzegorz96)
+
+
+## Contact
+
+E-mail: grzesstrzeszewski@gmail.com
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
