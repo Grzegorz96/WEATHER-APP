@@ -25,3 +25,37 @@ The program consists of five modules. The module that makes direct requests to t
 
 **Server:** 
 - [Datapubliczne.imgw.pl API interface](https://danepubliczne.imgw.pl/apiinfo)
+
+
+## Installation
+
+### To quickly launch the application on Windows:
+- Download WEATHER-APP repository:
+```bash
+ git clone https://github.com/Grzegorz96/WEATHER-APP.git
+```
+- Enter the directory WEATHER-APP/exe_weather_app.
+- If you want to move the Weather_app.exe file, do it together with the Photos folder. You can also create a copy of the .exe file on your desktop.
+- Run Weather_app.exe.
+
+### For manually launching the application on the IDE:
+
+#### Requirements:
+##### Programs and libraries:
+- Python 3.11
+- requests 2.31.0
+#### Instruction:
+- Download WEATHER-APP repository:
+```bash
+ git clone https://github.com/Grzegorz96/WEATHER-APP.git
+```
+- Open the WEATHER-APP on your IDE.
+- Install required packages on your venv:
+```bash
+  pip install requests 
+```
+- Run Main.py on Windows:
+```bash
+ py .\Main.py
+```
+Program WEATHER.app connects to the enpoints on the IMGW server, you don't need to create a local server.
