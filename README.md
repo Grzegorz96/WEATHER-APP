@@ -90,7 +90,7 @@ E-mail: grzesstrzeszewski@gmail.com
 ##### Screenshot of the main panel
 ##### Screenshot of selecting city
 ![panel_glowny](https://github.com/Grzegorz96/WEATHER-APP/assets/129303867/21cd5e3f-c630-4f00-a462-a8a1697ca3c9)
-![select](https://github.com/Grzegorz96/WEATHER-APP/assets/129303867/3d7b76bf-55d8-4fd1-b62a-a95b6e4ac942)
+![wybor](https://github.com/Grzegorz96/WEATHER-APP/assets/129303867/188ef1e3-5652-4371-8e17-4d89899c4a40)
 ##### Screenshots of the info about selected cities.
 ![miasto](https://github.com/Grzegorz96/WEATHER-APP/assets/129303867/f2fa8e55-dc02-4ea0-9698-47644199951d)
 ![miasto2](https://github.com/Grzegorz96/WEATHER-APP/assets/129303867/c5879adc-2900-4524-99ad-d172ddccfbd8)
