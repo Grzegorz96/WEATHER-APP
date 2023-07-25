@@ -42,7 +42,7 @@ The program consists of five modules. The module that makes direct requests to t
 
 #### Requirements:
 ##### Programs and libraries:
-- Python 3.11
+- Python 3.11.1
 - requests 2.31.0
 #### Instruction:
 - Download WEATHER-APP repository:
