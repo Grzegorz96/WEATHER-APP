@@ -34,7 +34,7 @@ The program consists of five modules. The module that makes direct requests to t
 ```bash
  git clone https://github.com/Grzegorz96/WEATHER-APP.git
 ```
-- Enter the directory WEATHER-APP/exe_weather_app.
+- Enter the directory WEATHER-APP/weather_app_exe.
 - If you want to move the Weather_app.exe file, do it together with the Photos folder. You can also create a copy of the .exe file on your desktop.
 - Run Weather_app.exe.
 
