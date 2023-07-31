@@ -52,7 +52,7 @@ The program consists of five modules. The module that makes direct requests to t
 - Open the WEATHER-APP on your IDE.
 - Install required packages on your venv:
 ```bash
-  pip install requests 
+  pip install requests==2.31.0
 ```
 - Run Main.py on Windows:
 ```bash
