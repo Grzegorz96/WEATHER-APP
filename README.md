@@ -49,10 +49,19 @@ The program consists of five modules. The module that makes direct requests to t
 ```bash
  git clone https://github.com/Grzegorz96/WEATHER-APP.git
 ```
+- Go to the WEATHER-APP directory.
 - Open the WEATHER-APP on your IDE.
-- Install required packages on your venv:
+- Create virtual enviroment for the project (Windows):
 ```bash
-  pip install requests==2.31.0
+ py -m venv venv
+```
+- Activate virtual enviroment (Windows):
+```bash
+ venv/Scripts/activate.bat
+```
+- Install required packages on your activated virtual enviroment:
+```bash
+ pip install requests==2.31.0
 ```
 - Run Main.py on Windows:
 ```bash
