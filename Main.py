@@ -1,6 +1,6 @@
-# Import modules.
+# Modules import.
 from GUI import init_main_window, init_selection_panel, init_main_label, init_date
-from Functions import download_city_names_and_stations_id
+from Functions import download_city_names_and_stations_id, load_images
 
 # Mainloop of WEATHER.APP.
 if __name__ == "__main__":
@@ -12,6 +12,8 @@ if __name__ == "__main__":
     init_selection_panel(root)
     # Creating panel with date.
     init_date(root)
+    # Loading image to global variable.
+    load_images()
     # Creating label for displaying weather info.
     init_main_label(root)
     # Running root object to mainloop.

@@ -1,14 +1,14 @@
 # Modules import.
-# Module Config for global variables.
+# Config module for global variables.
 import Config
-# Module Functions for validations and invoking and handling requests.
+# Functions module.
 from Functions import update_date, show_weather_info
 from tkinter import ttk
 from tkinter import *
 
 
-# Initialization main window of application.
 def init_main_window():
+    """The function responsible for initialization and configuring the main application window."""
     # Creating main window object.
     root = Tk()
     # Creating window geometry and position.
@@ -23,14 +23,18 @@ def init_main_window():
     root.title("WEATHER.APP")
     root.resizable(width=False, height=False)
     root.config(bg="#B0C4DE")
-    root.call("wm", "iconphoto", root._w, PhotoImage(file="Photos/ikona.png"))
+
+    try:
+        root.call("wm", "iconphoto", root._w, PhotoImage(file="Photos/ikona.png"))
+    except TclError:
+        pass
 
     # Returning object of root.
     return root
 
 
-# Initialization selection panel.
 def init_selection_panel(root):
+    """The function responsible for initializing the city selection panel"""
     # Creating top frame.
     top_frame = Frame(root, width=380, height=60, bg="#B0C4DE")
     top_frame.pack()
@@ -49,8 +53,8 @@ def init_selection_panel(root):
     search_button.place(x=285, y=20)
 
 
-# Initialization time label.
 def init_date(root):
+    """The function responsible for initializing time_label and calling the time updating function."""
     # Creating label for displaying time.
     time_label = Label(root, width=380)
     time_label.pack()
@@ -58,15 +62,14 @@ def init_date(root):
     update_date(root, time_label)
 
 
-# Initialization main label.
 def init_main_label(root, city_info=None):
+    """The function responsible for initializing the main_label, which displays the downloaded weather for a given
+    city."""
     # If current_label from Config is instance of Label, will be destroyed and made new one.
     if isinstance(Config.current_label, Label):
         Config.current_label.destroy()
-    # Changing background photo.
-    Config.photo = PhotoImage(file="Photos/background.png")
     # Creating new main label.
-    main_label = Label(root, width=380, height=580, image=Config.photo)
+    main_label = Label(root, width=380, height=580, image=Config.images["background"])
     main_label.pack()
     # If function is called from Main.py this will be omitted, if it is called from Functions.show_weather_info then
     # it will enter this block.

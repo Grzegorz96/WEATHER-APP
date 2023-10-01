@@ -1,6 +1,7 @@
-# Import modules.
+# Modules import.
 from sys import exit
 from tkinter import messagebox
+from tkinter import PhotoImage, TclError
 from requests import codes
 # Import Weather_requests to query the backend API.
 from Weather_requests import download_cities_info_request, download_city_info_request
@@ -8,8 +9,9 @@ from datetime import datetime
 import Config
 
 
-# Function for downloading info about all cities and writing their name and station_id to global lists.
 def download_city_names_and_stations_id():
+    """The function responsible for calling the function sending a request to download weather information about all
+    available cities and then assigning the city name and station ID values to the global lists."""
     # Calling request for download cities info and assigning response to variable.
     city_info_response = download_cities_info_request()
     # If response has status code 200 then enter this block.
@@ -37,8 +39,17 @@ def download_city_names_and_stations_id():
         exit(1)
 
 
-# Updating date.
+def load_images():
+    """The function responsible for loading background image to the global variable."""
+    try:
+        # Loading background to the global variable.
+        Config.images["background"] = PhotoImage(file="Photos/background.png")
+    except TclError:
+        Config.images["background"] = None
+
+
 def update_date(root, time_label):
+    """The function responsible for updating the time on time_label every one second."""
     # assignment new date and time from now to variables.
     date = f"{datetime.now().date()}"
     time = f"{datetime.now().hour}:{datetime.now().minute}:{datetime.now().second}"
@@ -48,8 +59,9 @@ def update_date(root, time_label):
     root.after(1000, update_date, root, time_label)
 
 
-# Showing weather info.
 def show_weather_info(current_var, init_main_label, root):
+    """The function is responsible for determining the station index for the selected city and then calling the function
+    sending a request to download weather information about this city."""
     # Validation of selected city by user.
     if current_var.get() in Config.list_of_city_names:
         # Making index of station_id that corresponds to a selected city. The index of the selected city in
