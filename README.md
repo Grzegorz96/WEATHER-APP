@@ -82,7 +82,7 @@ While creating the project, I learned how to work with json files, how to divide
 
 ## Authors
 
-- [@Grzegorz96](https://www.github.com/Grzegorz96)
+[@Grzegorz96](https://www.github.com/Grzegorz96)
 
 
 ## Contact
