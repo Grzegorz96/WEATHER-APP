@@ -67,7 +67,7 @@ The program consists of five modules. The module that makes direct requests to t
 ```bash
  py .\Main.py
 ```
-Program WEATHER.app connects to the enpoints on the IMGW server, you don't need to create a local server.
+Program WEATHER.app connects to the enpoints on the IMGW server, you don't need to create a local backend server.
 
 
 ## Lessons Learned
