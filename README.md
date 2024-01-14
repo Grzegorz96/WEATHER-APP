@@ -16,7 +16,7 @@ Functions.py:
 GUI.py:
 - The GUI.py module initializes objects on the user's screen, allowing data input into the program.
 
-Config.py
+Config.py:
 - The Config.py module contains global variables for the entire project. Enables the proper functioning of the program by providing global settings.
 
 Main.py:
