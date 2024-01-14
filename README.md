@@ -5,7 +5,22 @@ WEATHER_app is a weather application that connects to the danepubliczne.imgw.pl 
 
 
 ## Description of the modules
-The program consists of five modules. The module that makes direct requests to the weather API is Weather_request.py. It performs previously assigned queries and returns answers to individual modules. Functions.py calls query functions to the backend and handles response objects appropriately. Using functions.py, the program validates the entered data and decides what to do with it, then checks what is the response from the server and also decides what to do with it. It is also responsible for clock updates. The GUI.py module initializes objects on the user's screen, and with its help you can enter data into the program. The Config.py file contains global variables for the program. Main.py serves as the executor for the program. It calls the initialization functions, the function that get the global lists of city and station id, finally, the mainloop method is executed on the root (application) object.
+The program consists of 5 modules, each of which plays a unique role in the functioning of the application. Below is a brief description of each module:
+
+Weather_request.py:
+- The Weather_request.py is a module that makes direct requests to the weather API, executes previously triggered queries and forwards the responses to the appropriate place.
+
+Functions.py:
+- The Functions.py calls query functions to the backend, handles response objects appropriately, validates entered data, decides what to do with it, and checks server responses, making decisions on further actions. This module is also responsible for clock updates.
+
+GUI.py:
+- The GUI.py module initializes objects on the user's screen, allowing data input into the program.
+
+Config.py
+- The Config.py module contains global variables for the entire project. Enables the proper functioning of the program by providing global settings.
+
+Main.py:
+- The Main.py module serves as the executor for the program. It calls initialization functions, the function retrieving global lists of cities and station IDs, and finally, the mainloop method is executed on the root (application) object. 
 
 
 ## Features
@@ -72,7 +87,7 @@ Program WEATHER.app connects to the enpoints on the IMGW server, you don't need 
 
 
 ## Lessons Learned
-While creating the project, I learned how to work with json files, how to divide the project into modules and how important it is. When working on a foreign API, we must take into account that the data in the database will change, so our program must dynamically adapt to this. This project made me understand that. I also learned how to predict how the program might behave during various errors and how to deal with it.
+During the project creation, I learned how to work with JSON files, how to modularize the project, and how crucial it is. When dealing with non-own API, we must consider that data in the database may change, so our program needs to dynamically adapt to these changes. This project allowed me to comprehend that. I also gained the ability to anticipate how the program might behave in various error scenarios and how to handle them effectively.
 
 
 ## Features to be implemented
