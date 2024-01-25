@@ -77,6 +77,10 @@ Main.py:
 ```
 - Install required packages on your activated virtual enviroment:
 ```bash
+  pip install -r requirements.txt
+```
+- or
+```bash
  pip install requests==2.31.0
 ```
 - Run Main.py on Windows:
