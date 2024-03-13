@@ -90,7 +90,7 @@ Main.py:
 Program WEATHER.app connects to the enpoints on the IMGW server, you don't need to create a local backend server.
 
 
-## Lessons Learned
+## Lessons learned
 During the project creation, I learned how to work with JSON files, how to modularize the project, and how crucial it is. When dealing with non-own API, we must consider that data in the database may change, so our program needs to dynamically adapt to these changes. This project allowed me to comprehend that. I also gained the ability to anticipate how the program might behave in various error scenarios and how to handle them effectively.
 
 
