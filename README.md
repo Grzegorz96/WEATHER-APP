@@ -1,4 +1,4 @@
-![logo pogoda](https://github.com/Grzegorz96/WEATHER-APP/assets/129303867/011dd406-5ba8-4f1d-9937-e086b7ceed3b)
+![logo](https://raw.githubusercontent.com/Grzegorz96/WEATHER-APP/master/docs/readme-images/logo.png)
 # WEATHER.app
 
 WEATHER_app is a weather application that connects to the danepubliczne.imgw.pl API and creates a list of cities and a list of their weather station identifiers from the available downloaded data. The user selects the city whose weather he wants to check from the list of available cities, then the program downloads the latest weather information in this city and displays it. The application performs queries in real time, moreover, it has a dynamic creation of a list of cities, so it will adapt to any change (addition of new cities, removal of existing ones) on the server. Program WEATHER.app is written and optimized for Windows.
@@ -117,10 +117,10 @@ E-mail: grzesstrzeszewski@gmail.com
 
 ## Screnshoots
 ##### Screenshot of the main panel
-![panel_glowny](https://github.com/Grzegorz96/WEATHER-APP/assets/129303867/21cd5e3f-c630-4f00-a462-a8a1697ca3c9)
+![main_label](https://raw.githubusercontent.com/Grzegorz96/WEATHER-APP/master/docs/readme-images/main_label.png)
 ##### Screenshot of selecting city
-![wybor](https://github.com/Grzegorz96/WEATHER-APP/assets/129303867/188ef1e3-5652-4371-8e17-4d89899c4a40)
+![select_city](https://raw.githubusercontent.com/Grzegorz96/WEATHER-APP/master/docs/readme-images/select_city.png)
 ##### Screenshots of the info about selected city
-![miasto](https://github.com/Grzegorz96/WEATHER-APP/assets/129303867/f2fa8e55-dc02-4ea0-9698-47644199951d)
+![city](https://raw.githubusercontent.com/Grzegorz96/WEATHER-APP/master/docs/readme-images/city.png)
 ##### Screenshots of the info about selected city
-![miasto2](https://github.com/Grzegorz96/WEATHER-APP/assets/129303867/c5879adc-2900-4524-99ad-d172ddccfbd8)
+![city2](https://raw.githubusercontent.com/Grzegorz96/WEATHER-APP/master/docs/readme-images/city2.png)
