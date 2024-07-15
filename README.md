@@ -117,10 +117,10 @@ E-mail: grzesstrzeszewski@gmail.com
 
 ## Screnshoots
 ##### Screenshot of the main panel
-![main_label](https://raw.githubusercontent.com/Grzegorz96/WEATHER-APP/master/docs/readme-images/main_label.png)
+![main_panel](https://raw.githubusercontent.com/Grzegorz96/WEATHER-APP/master/docs/readme-images/main_label.png)
 ##### Screenshot of selecting city
 ![select_city](https://raw.githubusercontent.com/Grzegorz96/WEATHER-APP/master/docs/readme-images/select_city.png)
 ##### Screenshots of the info about selected city
-![city](https://raw.githubusercontent.com/Grzegorz96/WEATHER-APP/master/docs/readme-images/city.png)
+![selected_city](https://raw.githubusercontent.com/Grzegorz96/WEATHER-APP/master/docs/readme-images/city.png)
 ##### Screenshots of the info about selected city
-![city2](https://raw.githubusercontent.com/Grzegorz96/WEATHER-APP/master/docs/readme-images/city2.png)
+![selected_city_2](https://raw.githubusercontent.com/Grzegorz96/WEATHER-APP/master/docs/readme-images/city2.png)
